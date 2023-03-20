@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Job_Portal_App</string>
+    <string name="login">Login</string>
 </resources>
