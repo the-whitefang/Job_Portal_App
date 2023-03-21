@@ -11,7 +11,9 @@ class ShowLoginDetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_show_login_details)
 
-        binding.txtUserMail.text = intent.extras?.getString("email")?:"No mail id found"
-        binding.txtPass.text = intent.extras?.getString("password")?:"No password found"
+        val username1 = intent.extras?.getString("email")?:"No mail id found"
+        val pass1 = intent.extras?.getString("password")?:"No password found"
+        binding.txtUserMail.text = username1
+        binding.txtPass.text = pass1
     }
 }
