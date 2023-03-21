@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Job_Portal_App</string>
     <string name="login">Login</string>
+    <string name="welcome_to_the_job_portal_app">Welcome to the Job Portal App</string>
 </resources>

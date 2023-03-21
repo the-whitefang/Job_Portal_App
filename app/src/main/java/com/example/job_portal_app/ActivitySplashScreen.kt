@@ -11,7 +11,7 @@ import com.example.job_portal_app.databinding.ActivitySplashScreenBinding
 
 class ActivitySplashScreen : AppCompatActivity() {
     private lateinit var binding: ActivitySplashScreenBinding
-    private var loading_time:Long= 1500
+    private var loading_time:Long= 2000
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
